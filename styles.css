@@ -1,3 +1,52 @@
-.red {
-	color:red;
+body{
+	text-decoration:none;
+}	
+#header{
+	height:477px;
+
+
+
+}
+ul>li:first-child{
+	padding-left:31px;
+	padding-right:19px;
+	font color: white;
+
+}
+ul>li:last-child{
+	padding-right:31px;
+
+}
+
+ul>li {
+	list-style-type:none;
+	height:39px;
+	padding-left:19px;
+	padding-right:19px;
+	padding-top:14px;
+	padding-bottom:9px;
+	text-align:center;
+	font:16px;
+	width:1051px;
+	background-color: dodgerblue;
+	list-style:none;
+	display:inline;
+}
+#maincontent{
+height:553px;
+}
+#footer{
+	background:linear-gradient(to bottom, gainsboro 0%,white 100%);
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+	height:49px;
+	font-size:12px;
+	display:table-cell;
+    vertical-align:middle;
+    width:1900px;
+    text-decoration:none;
+}
+
+a {
+    text-decoration: none;
 }
