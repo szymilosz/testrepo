@@ -1,52 +1,73 @@
-body{
-	text-decoration:none;
-}	
-#header{
+#container {
+	width:1900px;
+}
+
+.header {
+	width:1900px;
 	height:477px;
+	background:linear-gradient(to top, gainsboro 0%,white 100%);
 
+}	
 
+.maincontent {
+	width:1900px;
+	height:533px;
+}
+
+.footer {
+	width:1900px;
+	height:49px;
+	background:linear-gradient(to bottom, gainsboro 0%,white 100%);
+	vertical-align:middle;
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	text-align:center;
+	display:table-cell;
 
 }
+
 ul>li:first-child{
 	padding-left:31px;
 	padding-right:19px;
-	font color: white;
-
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
 }
+
 ul>li:last-child{
-	padding-right:31px;
+	padding-right:61px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+}
+
+a {
+	text-decoration:none;
 
 }
 
-ul>li {
-	list-style-type:none;
+ul{
+	padding-top:119px;
+	list-style:none;
+	padding-left:420px;
+	
+	
+}
+
+ul li {
+	display:inline;
+	background-color: dodgerblue;
+	font-size:14px;
+	width:1051px;
 	height:39px;
 	padding-left:19px;
 	padding-right:19px;
 	padding-top:14px;
 	padding-bottom:9px;
-	text-align:center;
-	font:16px;
-	width:1051px;
-	background-color: dodgerblue;
-	list-style:none;
-	display:inline;
-}
-#maincontent{
-height:553px;
-}
-#footer{
-	background:linear-gradient(to bottom, gainsboro 0%,white 100%);
-	font-family: 'Lato', sans-serif;
-	text-align:center;
-	height:49px;
-	font-size:12px;
-	display:table-cell;
-    vertical-align:middle;
-    width:1900px;
-    text-decoration:none;
+
 }
 
-a {
-    text-decoration: none;
+ul a {
+	color:white;
+}
+li{
+	margin-left:0;
 }
