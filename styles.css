@@ -1,70 +1,70 @@
-#container {
-	width:1900px;
-}
-
-.header {
-	width:1900px;
-	height:477px;
-	background:linear-gradient(to top, gainsboro 0%,white 100%);
-
-}	
-
-.maincontent {
-	width:1900px;
-	height:533px;
-}
-
-.footer {
-	width:1900px;
-	height:49px;
-	background:linear-gradient(to bottom, gainsboro 0%,white 100%);
-	vertical-align:middle;
-	font-family: 'Lato', sans-serif;
-	font-size:14px;
-	text-align:center;
-	display:table-cell;
-
-}
-
-ul>li:first-child{
-	padding-left:31px;
-	padding-right:19px;
-	border-top-left-radius:15px;
-	border-bottom-left-radius:15px;
-}
-
-ul>li:last-child{
-	padding-right:61px;
-	border-top-right-radius:15px;
-	border-bottom-right-radius:15px;
-}
+/* general elements styling, no ids, no classes */
 
 a {
-	text-decoration:none;
-
+	text-decoration: none;
 }
 
-ul{
-	padding-top:119px;
-	list-style:none;
-	padding-left:420px;
-	
-	
+/* main container styling */
+
+#container {
+	width: 1900px;
 }
 
-ul li {
-	display:inline;
+/* header styling */
+
+.header {
+	width: 1900px;
+	height: 477px;
+	background: linear-gradient(to top, gainsboro 0%,white 100%);
+}
+
+*.header nav {
+	padding-top: 119px;
+	padding-left: 420px;
+}
+
+*.header ul {
+	list-style: none;
+	margin: 0;
+	width: fit-content;
+	height: fit-content;
+	border-radius: 15px;
+	padding-left: 31px;
+	padding-right: 31px;
+	padding-top: 14px;
+	padding-bottom: 9px;
 	background-color: dodgerblue;
-	font-size:14px;
-	width:1051px;
-	height:39px;
-	padding-left:19px;
-	padding-right:19px;
-	padding-top:14px;
-	padding-bottom:9px;
-
 }
 
-ul a {
-	color:white;
+*.header ul li {
+	display: inline;
+	font-size: 14px;
+	width: 1051px;
+	height: 39px;
+	padding-left: 19px;
+	padding-right: 19px;
+}
+
+*.header ul a {
+	color: white;
+}
+
+/* main content styling */
+
+.maincontent {
+	width: 1900px;
+	height: 533px;
+}
+
+/* footer styling */
+
+.footer {
+	width: 1900px;
+	height: 49px;
+	background: linear-gradient(to bottom, gainsboro 0%,white 100%);
+	vertical-align: middle;
+	font-family:  'Lato', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	display: table-cell;
 }
