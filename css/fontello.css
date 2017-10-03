@@ -55,10 +55,10 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-mail:before { content: '\e800'; } /* '' */
-.icon-gmail:before { content: '\e801'; } /* '' */
-.icon-location:before { content: '\e802'; font-size:70px;} /* '' */
-.icon-mail-alt:before { content: '\f0e0'; } /* '' */
-.icon-bug:before { content: '\f188'; } /* '' */
-.icon-cc:before { content: '\f20a'; } /* '' */
-.icon-viadeo-square:before { content: '\f2aa'; } /* '' */
+.icon-mail:before { content: '\e800';font-size:25px; } /* '' */
+.icon-gmail:before { content: '\e801';font-size:25px; } /* '' */
+.icon-location:before { content: '\e802'; font-size:25px;} /* '' */
+.icon-mail-alt:before { content: '\f0e0'; font-size:25px;} /* '' */
+.icon-bug:before { content: '\f188';font-size:25px; } /* '' */
+.icon-cc:before { content: '\f20a';font-size:25px; } /* '' */
+.icon-viadeo-square:before { content: '\f2aa';font-size:25px; } /* '' */
