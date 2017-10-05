@@ -1,0 +1,194 @@
+a {
+	text-decoration: none;
+}
+#container {
+	width: 1900px;
+}
+#up{
+	height:259px;
+	background-color:#3333FF;
+
+}
+#top{
+	background: linear-gradient(to top, gainsboro 0%,white 100%);
+	width:1000px;
+	height:219px;
+	
+	padding-left:30px;
+	margin-top:40px;
+	margin-right:380px;
+	float:right;
+	border-top-left-radius:20px;
+
+
+}
+/*w orginale przerwy pionowe między sekcjami nav są od dolnej do górnej krawędzi, nie ma pomysłu jak to uzyskać*/
+*#top ul {
+	list-style: none;
+	margin: 0;
+	width: fit-content;
+	height: fit-content;
+	
+	padding-left: 15px;
+	padding-right: 31px;
+	padding-top: 14px;
+	padding-bottom: 9px;
+	background-color: dodgerblue;
+	border-bottom:double;
+	
+}
+
+*#top ul li {
+	display: inline;
+	font-size: 16px;
+	width: 1051px;
+	height: 61px;
+	padding-left: 19px;
+	padding-right: 19px;
+	border-right:double;
+
+
+}
+
+*#top ul a {
+	color: white;
+}
+#logo:first-line{
+	font-size:48px;
+	font-weight:900;
+	color:#0033CC;
+	letter-spacing:3px;
+
+
+}
+/*poniżej powinno być #top ul li:hover ale jak jest to cały układ się rozjeżdza*/
+#top ul:hover{
+	background-color:#000033;
+	display: block;
+
+}	
+#logo{
+	font-size:32px;
+	
+	color:#0066FF;
+	padding-top:55px;
+}
+#maincontent{
+	width:1900px;
+	background-color:#E9E9E9;
+	height:1800px;
+}
+#content{
+
+	background-color:white;
+	width:1000px;
+	height:1700px;
+	margin-right:380px;
+	float:right;
+	padding-left:30px;
+	color: white;
+
+
+}
+#content ul{
+	list-style-type:none;
+	width:270px;
+	border-bottom-right-radius:20px;
+	color:white;
+	padding-left:3px;
+	
+}
+/*jak zrobić border radius tylko dla ostatniego pola, czemu nie mogę zrobić białej czcionki*/
+#content ul li{
+	height:45px;
+	background-color:#0066FF;
+	width:270px;
+	/*zapamiętać jak ustawiać po środku komórki tekst - 2 poniżesze linie*/
+	display: flex;
+	align-items: center; 
+	font-size:22px;
+	font-weight:900;
+	padding-left:12px;
+	border-radius:14px;
+
+	
+	
+	
+
+
+
+}
+/*nie wiem jak to zrobić by cała zawartość była traktowana jako przycisk - robie display-block to się rozpada całość*/
+#content ul li :hover{
+	background-color:#000033;
+	
+}
+
+#photo{
+	float:top;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
