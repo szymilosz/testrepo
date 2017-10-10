@@ -1,0 +1,28 @@
+body {
+
+		background-color: yellow;
+		width: 100%;
+	    height: auto;
+	    margin:0;
+
+}
+
+.container {
+	
+	background:linear-gradient(to top, #c3c5c7 0%, white 100%);
+	
+
+
+
+}
+.logo{
+	height: 300px;
+   
+
+
+}
+.content{
+	background-color:black;
+	height: 80vh;
+	width:100vw;
+}
