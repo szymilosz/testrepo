@@ -4,7 +4,8 @@ body {
 		width: 100%;
 	    height: auto;
 	    margin:0;
-
+	    display: flex;
+  		flex-flow: column;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 
 }
 .logo{
-	height: 200px;
+	
 	margin:auto;
 
    
