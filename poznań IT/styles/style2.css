@@ -27,7 +27,7 @@ body {
 	flex: 1;
 
 }
-.content {
+.main {
 	background-color: magenta;
 }
 .subcontainer2 {
@@ -41,6 +41,35 @@ body {
 .subcontainer3 {
 	display: flex;
 }
-#slider{
+#slider {
+	
+}
+.main{
+	display:flex;
 
+
+}
+.text {
+	flex:2;
+}
+.upper {
+	background-color:violet;
+
+}
+.lower{
+	display:flex;
+}
+.left {
+	background-color:silver;
+	flex:1;
+
+}
+.right {
+	background-color:gold;
+	flex:1;
+
+}
+.sidebar {
+	background-color:red;
+	flex:1;
 }
