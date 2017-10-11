@@ -19,6 +19,9 @@ body {
 	
 	flex: 1;
 	
+	justify-content: flex-start;
+    align-items: center;
+    display: flex;
 }
 .size {
 	background-color: yellow;
