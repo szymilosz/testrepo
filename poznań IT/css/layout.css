@@ -66,6 +66,10 @@ body {
 }
 .subcontainer3 {
 	display: flex;
+	padding-left:20px;
+	padding-top:25px;
+	padding-bottom:42px;
+	padding-right:21px;
 }
 .text {
 	flex: 1;
@@ -78,10 +82,38 @@ body {
 }
 .right {
 	flex: 1;
+	padding-left:5px;
 }
+#mapa{
+	padding-top:10px;
+
+}
+
 .sidebar {
 	width: 200px;
 }
 .footer {
 	height: 100%;
 }
+
+
+.stagetext {
+	flex: 1;
+	position: relative;
+}
+.stagetext button {
+	padding: 14px 23px 14px 23px;
+    
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+
+
+
+
+
+
+

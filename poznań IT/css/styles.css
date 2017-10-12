@@ -26,15 +26,15 @@ a {
 	color:black;
 }
 .main {
-	background-color: magenta;
+	
 }
 .nav {
-	background-color: orange;
+	
 }
 *.nav ul {
 	list-style: none;
 	border-radius: 15px;
-	background-color: dodgerblue;
+	background-color:#00a1cb;
 }
 *.nav ul li {
 	font-size: 14px;
@@ -42,21 +42,105 @@ a {
 *.nav ul a {
 	color: white;
 }
-.upper {
-	background-color: violet;
+.upper h1{
+	color:#4eaacb;
+	font-size:17px;
+	margin:0;
+}
+
+
+.upper{
+	padding-top:8px;
+}
+.left{
+	padding-top:8px;
+}
+.left h2{
+	color:#ed5176;
+	font-size:14px;
+}
+.left h1{
+	color:#4eaacb;
+	font-size:17px;
+	margin:0;
+}
+hr{
+	background:#c3c5c7;
+	width:90%;
 }
 .lower{
 	display: flex;
 }
-.left {
-	background-color: silver;
+.right{
+	padding-top:8px;
 }
-.right {
-	background-color: gold;
+
+
+.right h1{
+	color:#4eaacb;
+	font-size:17px;
+	margin:0;
 }
+
 .sidebar {
 	background-color: red;
 }
 .footer {
 	background-color: chocolate;
 }
+#slider{
+	border:double;
+	border-color:lightgray;
+	border-width:4px;
+
+}
+
+.textline1{
+	padding-top:42px;
+	font-size:21px;
+	font-family: scala;
+	margin:0;
+	padding-left:66px;
+	color:#2c323b;
+
+}
+.textline2{
+	font-size:38px;
+	font-family: scala;
+	margin:0;
+	font-weight:800;
+	padding-left:66px;
+	color:#3a393b;
+
+}
+.textline3{
+	font-size:38px;
+	font-family: scala;
+	margin:0;
+	padding-left:66px;
+	color:#3a393b;
+}
+.textline4{
+	font-size:38px;
+	font-family: scala;
+	margin:0;
+	padding-left:66px;
+	color:#3a393b;
+}
+.stagetext button {
+	font-size:14px;
+	font-family: scala;
+
+	border-radius:14px;
+	background: #CC0066;
+	color:white;
+
+    border: 0;
+}
+
+
+
+
+
+
+
