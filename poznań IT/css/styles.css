@@ -104,33 +104,30 @@ hr {
 .appointment {
 	background: #CC0066;
 }
-.request{
+.request {
 	background: #3f8605;
 }
-.like{
+.like {
 	background: #61ae24;
 }
-.visit{
+.visit {
 	background: #00a1cb;
 }
-.join{
+.join {
 	background: #67cddc;
 }
-.form{
+.form {
 	background-color: #d8d9da;
 }
-.form button{
+.form button {
 	color: white;
 	font-size: 16px;
 	background-color: #61ae24;
-	text-align: center;
-}
-.footer span{
-	color: #da2d88;
-	font-size: 14px;
+	
 }
 .footer {
 	font-size: 14px;
+	color: #4f4869;
 	text-align: left;
 	background: linear-gradient(to bottom, gainsboro 0%,white 100%);
 }

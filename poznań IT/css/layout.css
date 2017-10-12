@@ -49,10 +49,10 @@ body {
 }
 .main {
 	display: flex;
-	padding-left: 22px;
 	padding-left: 31px;
-	padding-top: 49px;
+	padding-top: 33px;
 	padding-right: 10px;
+	padding-bottom: 66px;
 }
 .textline1{
 	padding-top: 42px;
@@ -98,33 +98,37 @@ body {
 }
 .lower{
 	display: flex;
+	padding-top: 8px;
 }
 .left {
 	flex: 1;
-	padding-top: 8px;
+	
 }
-hr{
+hr {
 	width: 100%;
 }
-.left h1{
+.left h1 {
 	margin: 0;
 }
 .right {
 	flex: 1;
-	padding-left: 10px;
-	padding-top: 8px;
+	padding-left: 33px;
+	
 }
-.right h1{
+.right h1 {
 	margin: 0;
 }
-#mapa{
+.sidebar .appointment{
+	margin-top:0;
+}
+#mapa {
 	padding-top: 10px;
 }
 .sidebar {
 	width: 250px;
 	padding-left:70px;
 }
-.sidebar p{
+.sidebar p {
 	margin-top: 10px;
 	margin-bottom: 0;
 	padding-top: 14px;
@@ -160,22 +164,60 @@ hr{
     right: 0;
 }
 .form button{
-	width: 120px;
-	padding-top: 3px;
-	padding-bottom: 2px;
-	margin-bottom: 6px;
+	
+	padding-bottom: 8px;
 	padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
     display: flex;
+    margin-top:6px;
     flex-direction: column;
-
+    border:0;
 
 }
+.form input {
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-top: 7px;
+	padding-left:5px;
+	width:100%;
+	
+}
 
+.form input:first-of-type {
+	margin-top:0;
 
+	
 
+}
+.form {
+	padding-top:21px;
+	padding-left:11px;
+	padding-bottom:21px;
+	padding-right:25px;
 
+}
+.footer ul {
+	margin: 0 0 0 20px;
+	height: fit-content;
+	padding:0;
+}
 
+.footer ul li {
+	list-style: none;
+	display: inline;
+	border-left: solid;
+	border-width: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.footer ul li:first-of-type {
+	border: none;
+	padding-left:0;
+}
+.footer a {
+	color:#dd198f;
 
+}
 
 
