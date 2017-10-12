@@ -24,33 +24,52 @@ body {
 }
 .logo {
 	height: 105px;
-	padding-left:24px;
+	padding-left: 24px;
 	flex: 1;
 	justify-content: flex-start;
     align-items: center;
     display: flex;
 }
 .logo h2 {
-	margin:0;
+	margin: 0;
 }
 .size {
 	height: 105px;
 	flex: 1;
-	text-align:right;
 	justify-content: flex-end;
     align-items: center;
     display: flex;
-    padding-right:1px;
+    padding-right: 1px;
 }
 #line2 {
-	margin:0;
+	margin: 0;
 }
 #line3 {
-	margin:0;
+	margin: 0;
 }
 .main {
 	display: flex;
-	padding-left:22px;
+	padding-left: 22px;
+	padding-left: 31px;
+	padding-top: 49px;
+	padding-right: 10px;
+}
+.textline1{
+	padding-top: 42px;
+	margin: 0;
+	padding-left: 66px;
+}
+.textline2{
+	padding-left: 66px;
+	margin: 0;
+}
+.textline3{
+	margin: 0;
+	padding-left: 66px;
+}
+.textline4{
+	margin: 0;
+	padding-left: 66px;
 }
 *.nav ul {
 	margin: 0;
@@ -67,14 +86,14 @@ body {
 }
 .subcontainer3 {
 	display: flex;
-	padding-left:20px;
-	padding-top:25px;
-	padding-bottom:42px;
-	padding-right:21px;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-bottom: 42px;
+	padding-right: 21px;
 }
 .text {
 	flex: 1;
-	padding-top:10px;
+	padding-top: 10px;
 	
 }
 .lower{
@@ -82,46 +101,75 @@ body {
 }
 .left {
 	flex: 1;
+	padding-top: 8px;
+}
+hr{
+	width: 100%;
+}
+.left h1{
+	margin: 0;
 }
 .right {
 	flex: 1;
-	padding-left:5px;
+	padding-left: 10px;
+	padding-top: 8px;
+}
+.right h1{
+	margin: 0;
 }
 #mapa{
-	padding-top:10px;
+	padding-top: 10px;
 }
 .sidebar {
 	width: 250px;
+	padding-left:70px;
+}
+.sidebar p{
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-top: 14px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 47px;
 }
 .footer {
 	height: 100%;
-	font-size:14px;
-	text-align:left;
-	padding-top:10px;
-	padding-bottom:14px;
-	background: linear-gradient(to bottom, gainsboro 0%,white 100%);
-
+	padding-top: 10px;
+	padding-bottom: 18px;
 }
 .stagetext {
 	flex: 1;
 	position: relative;
 }
+.upper{
+	padding-top: 8px;
+
+}
+.upper h1{
+	margin: 0;
+}
+.nav ul{
+	border-radius: 15px;
+}
 .stagetext button {
 	padding: 14px 23px 14px 23px;
-
+	border-radius: 14px;
+	border: 0;
    	position: absolute;
     bottom: 0;
     right: 0;
 }
 .form button{
-	width:120px;
-	background-color:#61ae24;
-	color:white;
-	font-size:16px;
-	padding-top:3px;
-	padding-bottom:2px;
-	text-align:center;
-	margin-bottom:6px;
+	width: 120px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	margin-bottom: 6px;
+	padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 
