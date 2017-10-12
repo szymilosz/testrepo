@@ -58,7 +58,7 @@ a {
 }
 hr{
 	background:#c3c5c7;
-	width:90%;
+	width:100%;
 }
 .lower{
 	display: flex;
@@ -136,6 +136,11 @@ hr{
 .request{
 	background:#3f8605;
 }
+.main{
+	padding-left:31px;
+	padding-top:49px;
+	padding-right:10px;
+}
 .like{
 	background:#61ae24;
 }
@@ -152,6 +157,3 @@ hr{
     padding-top:10px;
     padding-left:10px;
 }
-
-
-
