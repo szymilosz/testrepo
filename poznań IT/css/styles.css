@@ -25,12 +25,6 @@ a {
 	font-size:12px;
 	color:black;
 }
-.main {
-	
-}
-.nav {
-	
-}
 *.nav ul {
 	list-style: none;
 	border-radius: 15px;
@@ -47,8 +41,6 @@ a {
 	font-size:17px;
 	margin:0;
 }
-
-
 .upper{
 	padding-top:8px;
 }
@@ -74,27 +66,22 @@ hr{
 .right{
 	padding-top:8px;
 }
-
-
 .right h1{
 	color:#4eaacb;
 	font-size:17px;
 	margin:0;
 }
-
 .sidebar {
-	background-color: red;
+	
+	font-size:17px;
+	font-family: scala;
 }
-.footer {
-	background-color: chocolate;
-}
+
 #slider{
 	border:double;
 	border-color:lightgray;
 	border-width:4px;
-
 }
-
 .textline1{
 	padding-top:42px;
 	font-size:21px;
@@ -102,7 +89,6 @@ hr{
 	margin:0;
 	padding-left:66px;
 	color:#2c323b;
-
 }
 .textline2{
 	font-size:38px;
@@ -111,7 +97,6 @@ hr{
 	font-weight:800;
 	padding-left:66px;
 	color:#3a393b;
-
 }
 .textline3{
 	font-size:38px;
@@ -130,17 +115,43 @@ hr{
 .stagetext button {
 	font-size:14px;
 	font-family: scala;
-
 	border-radius:14px;
 	background: #CC0066;
 	color:white;
-
-    border: 0;
+	border: 0;
 }
-
-
-
-
+.sidebar p{
+	color:white;
+	margin-top:10px;
+	margin-bottom:0;
+	padding-top:14px;
+	padding-bottom:12px;
+	padding-left:24px;
+	padding-right:47px;
+	font-size:16px;
+}
+.appointment {
+	background: #CC0066;
+}
+.request{
+	background:#3f8605;
+}
+.like{
+	background:#61ae24;
+}
+.visit{
+	background:#00a1cb;
+}
+.join{
+	background:#67cddc;
+}
+.form{
+	display: flex;
+    flex-direction: column;
+    background-color:#d8d9da;
+    padding-top:10px;
+    padding-left:10px;
+}
 
 
 
