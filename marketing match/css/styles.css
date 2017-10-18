@@ -1,0 +1,397 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+    font-family:'Rajdhani';
+    src:url(../fonts/Rajdhani-Bold.ttf);
+}
+a{
+	text-decoration:none;
+}
+body{
+	margin:0;
+}
+.container {
+	margin-bottom: auto;
+	width:100%;
+	height: 100%;
+	background-color:red;
+}
+.top{
+	width:100%;
+	background-color:#7f7f7f;
+	font-family: 'Muli', sans-serif;
+}
+
+.uppertop{
+	display: flex;
+	max-width:1193px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*czy tak może być - wyznaczenie paddingów za pomocą procentów*/
+.logo{
+	/*flex:1;*/
+	background-color:#7f7f7f;
+	padding-top:37px;
+	padding-bottom:37px;
+	justify-content: flex-start;
+    
+    display:flex;
+}
+
+.nav{
+	flex:2;
+	color:white;
+	
+	/*padding-right:13.1875%;*/
+	justify-content: flex-end;
+    align-items: center;
+    display:flex;
+}
+.nav ul{
+	list-style-type:square;
+}
+.nav ul a {
+	color:white;
+}
+.nav ul li{
+	padding-left:17px;
+	display:inline;
+}
+.nav ul li:first-child{
+	padding-left:0;
+}
+#firhead{
+	margin:0;
+}
+ #thihead{
+ 	margin:0;
+ }
+.slides{
+	text-align:center;
+}
+.textslides {
+	color:white;
+	font-size:26px;
+	height:auto;
+	margin:0;
+	padding-bottom:43px;
+}
+.textslides:first-line {
+	font-size:61px;
+	
+}
+
+.slidestext1 {
+	margin:0;
+	padding-bottom:43px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight:600;
+	letter-spacing: 8px;
+
+}	
+.slidestext2{
+	margin:0;
+	padding-bottom:123px;
+	font-family: 'Rajdhani';
+}
+.slidestext2 {
+	margin:0;
+}
+button{
+	padding-top:22px;
+	padding-bottom:22px;
+	padding-left:43px;
+	padding-right:44px;
+	font-size:16px;
+	background-color:#c18b56;
+	border-style:none;
+	color:white;
+	font-family:'ABeeZee',sans-serif;
+	font-weight:900;
+}
+.header{
+	background-color:white;
+	align-items:center;
+}
+
+.subheader2{
+	display:flex;
+	align-items:flex-end;
+}
+
+.subheader{
+	
+	text-align:center;
+}
+.subheader3{
+	padding-bottom:106px;
+	padding-top:80px;
+}
+.subheader1{
+	max-width:801px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.subh1{/*padding-top:123px*/
+	margin:0;
+	padding-top:123px;
+	text-align:center;
+	font-size:43px;
+	padding-bottom:38px;
+}
+.subh1{
+	font-size:18px;
+	margin:0;
+	letter-spacing: 12px;
+	font-family: 'Rajdhani';
+
+}
+.subh2{
+	text-align:center;
+	font-size:43px;
+	margin:0;
+	font-family:'Rajdhani';
+	letter-spacing: 5px;
+	font-weight:800;
+}
+.subh3{
+	margin:0;
+	text-align:center;
+	font-size:15px;
+	padding-bottom:99px;
+	letter-spacing: 2px;
+	margin:0;
+	font-family: 'Rajdhani';
+}
+.narrowdiv{
+	max-width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:51px;
+}
+.subheader2{
+	
+	
+	margin-left:26.6875%;
+	margin-right:26.0625%;
+}
+.subsubheader{
+	max-width:1193px;
+}
+.firstheader{
+	flex:1;
+	align-items:flex-end;
+	width:auto;
+	justify-content: center;
+	
+}
+.secondheader{
+	flex:1;
+	width:auto;
+	justify-content: center;
+}
+
+#sechead{
+	text-align:center;
+	margin:0;
+}
+.secondheadercross{
+	padding-bottom:47px;
+}   
+   
+	
+
+.thirdheader{
+	flex:1;
+	justify-content: center;
+	width:auto;
+
+}
+.subcon1{
+	padding-left:44px;
+	padding-top:138px;
+}
+.subcontent1{
+	flex-direction: row;
+	display:flex;
+	background-color:#cdcdcd;
+}
+
+.subcontent2{
+	background-color:#d2d2d2;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.subcon2{
+	
+}
+
+#upcameratext1{
+	font-size:18px;
+	letter-spacing: 12px;
+	padding-bottom:37px;
+	margin:0;
+
+}
+#upcameratext2{
+	font-size:43px;
+	font-weight:800;
+	padding-bottom:51px;
+	margin:0;
+	letter-spacing:2px;
+	padding-left:1px;
+	font-family:'Rajdhani';
+}
+#upcameratext3{
+	font-size:14px;
+	font-family:'ABeeZee',sans-serif;
+	margin:0;
+	padding-bottom:41px;
+	padding-left:1px;
+}
+.lowtext{
+	display:flex;
+	flex-direction: column;
+	
+	padding-right:46px;
+
+}
+.lowcameratext1{
+	margin:0;
+	padding-top:178px;
+	text-align: right;
+	letter-spacing:12px;
+	max-width:690px;
+	
+}
+.lowcameratext2{
+	margin:0;
+	padding-top:33px;
+	font-size:43px;
+	text-align: right;
+	letter-spacing:2px;
+	font-family:'Rajdhani';
+	font-weight: 800;
+	
+}
+.lowcameratext3{
+	margin:0;
+	font-size:14px;
+	text-align: right;
+	
+	max-width: 680px;
+	letter-spacing: 2px;
+}
+.lowerbut{
+	text-align: right;
+	margin-right:46px;
+	margin-top:46px;
+}
+.content{
+	background-color:tomato;
+}
+.gallery{
+	background-color:white;
+}
+.subgallery{
+	max-width:1193px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	flex-direction: column;
+}
+.upgallery{
+	display:flex;
+}
+.lowgallery{
+	display:flex;
+}
+.textgallery2{
+	font-family:'Rajdhani';
+	font-weight:800;
+	font-size:43px;
+	letter-spacing: 2px;
+}
+.textgraphic1{
+	display:flex;
+	flex-direction: column;
+	width:min-content;
+	padding-right:2px;
+}
+#sixgraphic1{
+	
+}
+.textgraphic2{
+	flex-direction: column;
+	display:flex;
+	width:min-content;
+	padding-right:2px;
+}
+#sixgraphic2{
+	
+}
+.textgraphic3{
+	flex-direction: column;
+	display:flex;
+	width:min-content;
+}
+#sixgraphic3{
+	
+}
+.textgraphic4{
+	flex-direction: column;
+	display:flex;
+	width:min-content;
+	padding-right:2px;
+}
+#sixgraphic4{
+	
+}
+.textgraphic5{
+	flex-direction: column;
+	display:flex;
+	width:min-content;
+	padding-right:2px;
+}
+#sixgraphic5{
+	
+}
+.textgraphic6{
+	flex-direction: column;
+	display:flex;
+	width:min-content;
+}
+#sixgraphic6{
+	
+}
+.footer{
+	background-color:grey;
+	
+
+}
+.subfooter{
+	display: flex;
+	max-width:1193px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.leftfooter{
+	justify-content: flex-start;
+	align-items: center;
+    display:flex;
+    flex:1;
+}
+.rightfooter{
+	justify-content: flex-end;
+	align-items: center;
+    display:flex;
+    flex:1;
+}
+
+
+
+
+
