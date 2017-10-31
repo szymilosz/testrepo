@@ -7,16 +7,10 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "d0673ef38e1c458a6de52aad2a2f800d",
-      "css": "right-circled2",
-      "code": 61838,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "ebbe0cc0600cb69375abc20af545967f",
-      "css": "facebook-rect",
-      "code": 62209,
-      "src": "websymbols"
+      "uid": "47bd87a650e95b97f947d275ed968efe",
+      "css": "facebook-squared",
+      "code": 62222,
+      "src": "entypo"
     },
     {
       "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
