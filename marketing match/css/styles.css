@@ -216,6 +216,11 @@ button{
 	padding-left:44px;
 	padding-top:138px;
 }
+@media (max-width:800px) {
+  .subcon1 {
+    width:100%; /*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
 .subcontent1{
 	flex-direction: row;
 	display:flex;
